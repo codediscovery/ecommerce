@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Shorts",
+      "category": "shorts",
+      "brand": "nike"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "nike"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "shorts"
+    }
+  ]
+}
