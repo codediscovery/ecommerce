@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Wine Sauvignon Blanc Marlborough Sun",
+      "region": 1,
       "category": 1,
       "sort": 1,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/image/119x450/9df78eab33525d08d6e5fb8d27136e95/0/5/05776_1.jpg",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "title": "Wine Gazela Vinho Verde",
+      "region": 2,
       "category": 2,
       "sort": 2,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/0/2/02775.jpg",
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "title": "Wine Pinot Grigio delle Venezie",
+      "region": 2,
       "category": 2,
       "sort": 1,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/3/6/36685.jpg",
@@ -27,7 +30,8 @@
     {
       "id": 4,
       "title": "Wine Reserve de l'Aube Pere Anselme Syrah-Merlot",
-      "category": 4,
+      "region": 3,
+      "category": 2,
       "sort": 1,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/image/119x450/9df78eab33525d08d6e5fb8d27136e95/0/4/04358_1.jpg",
       "description": "Gastronomic wine with aromas of currants, cherries and raspberries. The taste has soft tannins and excellent balance. The wine pairs easily with a variety of foods, especially well with red meat dishes, stews, roasts. It is recommended to serve slightly chilled. "
@@ -35,7 +39,8 @@
     {
       "id": 5,
       "title": "Wine Acantus Blanco",
-      "category": 5,
+      "region": 4,
+      "category": 1,
       "sort": 3,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/image/119x450/9df78eab33525d08d6e5fb8d27136e95/0/4/04358_1.jpg",
       "description": "Acantus has a light golden color.Wonderful easy wine, with a predominance of fruit notes and a touch of white flowers in the aroma "
@@ -43,7 +48,8 @@
     {
       "id": 6,
       "title": "Wine Sauvignon Blanc Marlborough Sun",
-      "category": 5,
+      "region": 1,
+      "category": 1,
       "sort": 3,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/3/0/30997_2.jpg",
       "description": "Optimal ripeness of Sauvignon Blanc reveals expressive, lush aromas of passion fruit, gooseberry, black currant leaves framed by subtle citrus tones. On the palate it is a well-balanced wine with pleasant freshness and bright character. The aftertaste is lingering and refreshing. "
@@ -51,7 +57,8 @@
     {
       "id": 7,
       "title": "Wine Gazela Vinho Verde",
-      "category": 1,
+      "region": 4,
+      "category": 2,
       "sort": 2,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/4/3/43657.jpg",
       "description": "This is the most popular Portuguese white wine, which has won the hearts of consumers all over the world. Vinho Verde is not only the name of the wine, but also the region with a wide range of wines. A white bestseller of the most popular style, a light, drinkable, fruity and slightly sparkling wine. On the palate, hints of tropical fruit and citrus are perfectly complemented by balanced acidity and a slight presence of residual sugar. Unobtrusive and versatile, wonderfully chilled as an aperitif.Translated with www.DeepL.com/Translator (free version)"
@@ -59,6 +66,7 @@
     {
       "id": 8,
       "title": "Wine Pinot Grigio delle Venezie",
+      "region": 3,
       "category": 2,
       "sort": 1,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/2/3/23732.jpg",
@@ -67,6 +75,7 @@
     {
       "id": 9,
       "title": "Wine Reserve de l'Aube Pere Anselme Syrah-Merlot",
+      "region": 4,
       "category": 1,
       "sort": 3,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/2/3/23610.jpg",
@@ -75,13 +84,26 @@
     {
       "id": 10,
       "title": "Wine Acantus Blanco",
-      "category": 3,
+      "region": 5,
+      "category": 2,
       "sort": 1,
       "image": "https://goodwine.com.ua/media/catalog/product/cache/1/small_image/106x245/9df78eab33525d08d6e5fb8d27136e95/2/1/21693.jpg",
       "description": "Acantus has a light golden color.Wonderful easy wine, with a predominance of fruit notes and a touch of white flowers in the aroma "
     }
   ],
   "categories": [
+    {
+      "id": 1,
+      "name": "Wine",
+      "slug": "wine"
+    },
+    {
+      "id": 2,
+      "name": "Beer",
+      "slug": "beer"
+    }
+  ],
+  "regions": [
     {
       "id": 1,
       "name": "New Zealand",
