@@ -3,20 +3,20 @@
     {
       "id": 1,
       "title": "Shorts",
-      "category": "shorts",
-      "brand": "nike"
-    }
-  ],
-  "brands": [
-    {
-      "id": 1,
-      "name": "nike"
+      "category": "france",
+      "sort": "red"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "shorts"
+      "name": "france"
+    }
+  ],
+  "sorts": [
+    {
+      "id": 1,
+      "name": "red"
     }
   ]
 }
